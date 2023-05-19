@@ -1,0 +1,106 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	
+	</head>
+	<body>
+		<p id ="f"></p>
+		<div id="time"></div>
+		<div id="gotop">
+			<img src="img/top.png">
+		</div>
+		
+		<div id="mycantent">
+			<div id="colors">color</div>
+			<div id="a">A</div>
+			<div id="b">B</div>
+			<div id="c">C</div>
+			<div id="d">D</div>
+			<div id="e">E</div>
+			<div id="h">F</div>
+		</div>
+		<form id = "myform">
+			<label for="sName" >Student Name : </label>
+			<input type ="text" id = "sName" name = "sName" placeholder="Please Enter Name" autofocus>
+			<button id ="add">Add To List</button>			
+			<button id = "mydel">Delete Last</button>			
+		</form>
+		
+		<table>
+			<caption>Students list</caption>
+			<thead>
+				<tr>
+					<th>Row</th>
+					<th><img src="img/sort.png" id="sn">Student Name <input id="fn" placeholder="Filter Name"></th>
+					<th><img src="img/sort.png" id="st">Student Turn <input id="ft" placeholder="Filter Turn"></th>
+					<th colspan = "2">Action</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th colspan="2" >Number Of Student</th>
+					<th colspan="3" id="NOStudent">3</th>
+				</tr>
+				<tr>
+					<th colspan="2">Max Of Turn Is</th>
+					<th colspan="3" id="maxturn">19</th>
+				</tr>
+				
+			</tfoot>
+			<tbody>
+				
+			</tbody>
+		</table>
+		<div id='modal'>
+			<div id ='mc'>
+			<img src ='img/bullet1.png' class='pic'>
+			<br>
+			<br>
+			<br>
+			<br>  
+			<p>are you sure you want to deleted ?</p>
+			<br>
+			<br>
+			<button id='ok'>Ok</button>
+			<button id='cancel'>Cancel</button>
+			</div>
+		
+		</div>
+		
+		
+		<div id='info'><img src='img/bullet1.png' id ='dl'>
+			<p></p>
+		</div>
+		
+		
+		
+		<div id='modal1'>
+			<div id ='mc1'>
+			<img src ='img/bullet1.png' class='pic'>
+			<br>
+			<br>
+			<br>
+			<br>  
+			<p>are you sure you want to deleted ?</p>
+			<br>
+			<br>
+			<button id='ok1'>Ok</button>
+			<button id='cancel1'>Cancel</button>
+			</div>
+		
+		</div>
+		<div id='info1'><img src='img/bullet1.png' class = "pic">
+			<p></p>
+		</div>
+		
+		<!-- <div style = "width: 100%; height:100%; background-color:#555e ; top : 0; left: 0; position:fixed;" > -->
+			<!-- <div style = "border-radius:10px; width: 25%; height:250px; margin : 200px auto; background-color:#eee"> -->
+			<!-- <div style = "width: 100%; height:50px;">Warning</div>Warning</div> -->
+		<!-- </div> -->
+		<script src = "js/JQuery.js"></script> 
+		<script src = "js/myjs.js"></script> 
+		
+		
+	</body>
+</html>
